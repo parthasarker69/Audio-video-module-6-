@@ -1,0 +1,45 @@
+nav ul li {
+    list-style: none;
+    margin-right: 5px;
+    padding: 0px 5px;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li:hover {
+    background-color: aqua;
+    color: black;
+}
+
+nav li a {
+    text-decoration: none;
+    color: navy;
+    font-size: 30px;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+    background-color: burlywood;
+}
+
+nav>ul>li>ul {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li>ul>li:hover {
+    background-color: gray;
+    color: black;
+}
+
+nav>ul>li>ul>li {
+    margin: 0;
+    padding: 0;
+}
